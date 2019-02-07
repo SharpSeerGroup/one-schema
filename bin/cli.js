@@ -24,3 +24,7 @@ program
 program.parse(process.argv)
 
 console.log(`Hello World v${version} - ${args}`)
+
+schema = require('../tests/coordinate.schema.json')
+
+console.log(schema.id, schema.description)
